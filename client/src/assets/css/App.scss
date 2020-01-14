@@ -5,8 +5,14 @@ body {
     .job {
         width: 80%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: 1rem auto;
         padding: 1rem;
+        align-items: center;
+
+        &:hover {
+            cursor: pointer;
+            color: #666;
+        }
     }
 }
